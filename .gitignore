@@ -1,0 +1,13 @@
+# Ifnorar facturas test
+facturas/
+.facturas/
+log_errores.log
+log_lanzador.txt
+
+# Ignorar el entorno virtual
+venv/
+.venv/
+
+# Ignorar logs y temporales
+*.log
+__pycache__/
