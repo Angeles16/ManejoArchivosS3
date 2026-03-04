@@ -1,7 +1,8 @@
 @echo off
 cd /d "%~dp0"
-set PYTHON_VENV="%~dp0venv\Scripts\python.exe"
-%PYTHON_VENV% main.py
+
+call poetry run python main.py
+
 if %ERRORLEVEL% NEQ 0 (
     echo.
     echo [ALERTA] El script fallo con codigo %ERRORLEVEL%

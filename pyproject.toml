@@ -1,0 +1,24 @@
+[project]
+name = "proyecto-s3"
+version = "0.1.0"
+description = "Proceso para la descarga de archivos de bucket s3"
+authors = [
+    {name = "AngelSacbaja",email = "tec.desarrollo7.gtd@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3 (==1.42.55)",
+    "botocore (==1.42.55)",
+    "jmespath (==1.1.0)",
+    "python-dateutil (==2.9.0.post0)",
+    "python-dotenv (==1.2.1)",
+    "s3transfer (==0.16.0)",
+    "six (==1.17.0)",
+    "urllib3 (==2.6.3)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

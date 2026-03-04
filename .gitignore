@@ -11,3 +11,4 @@ venv/
 # Ignorar logs y temporales
 *.log
 __pycache__/
+
